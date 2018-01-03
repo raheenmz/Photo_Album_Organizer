@@ -1,0 +1,66 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2919268485" file="C:\Users\Raheen\Desktop\Spring 2017\Pattern Recognition\Project\Photo Album Organizer.prj" location="C:\Users\Raheen\Desktop\Spring 2017\Pattern Recognition\Project" name="Photo Album Organizer" target="target.mlapps" target-name="Package App">
+    <param.appname>Photo Album Organizer</param.appname>
+    <param.authnamewatermark>Raheen Mazgaonkar</param.authnamewatermark>
+    <param.email>raheenmz@gmail.com</param.email>
+    <param.company>UFL</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Raheen\Desktop\Spring 2017\Pattern Recognition\Project</param.output>
+    <param.guid>61b9ba06-7bc9-44ff-90b9-d1afbe3e2b9c</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\CreateDatabase.m</file>
+      <file>${PROJECT_ROOT}\EigenfaceCore.m</file>
+      <file>${PROJECT_ROOT}\Recognition.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Raheen\Desktop\Spring 2017\Pattern Recognition" name="Project" optional="false">C:\Users\Raheen\Desktop\Spring 2017\Pattern Recognition\Project</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
